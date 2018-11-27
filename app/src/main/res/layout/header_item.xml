@@ -1,0 +1,112 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/txtDiayFecha"
+            android:text="Fecha y Hora"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:drawableEnd="@drawable/ic_av_timer_black_24dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:id="@+id/txtPronostico"
+            android:layout_margin="10dp"
+            android:text="Pronostico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:drawableEnd="@drawable/ic_warning_black_24dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:id="@+id/txtTemperatura"
+            android:layout_margin="10dp"
+            android:text="Temperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:drawableEnd="@drawable/ic_warning_black_24dp"
+            android:layout_marginLeft="10dp"
+            android:Layout_weight= "1"
+            android:drawablePadding="5dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:id="@+id/txtProbabilidad"
+            android:layout_margin="10dp"
+            android:text="ProbabLluvia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:drawableEnd="@drawable/ic_warning_black_24dp"
+            android:layout_marginLeft="10dp"
+            android:Layout_weight= "1"
+            android:drawablePadding="5dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:id="@+id/txtVelViento"
+            android:layout_margin="10dp"
+            android:text="Velocidad "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:drawableEnd="@drawable/ic_warning_black_24dp"
+            android:layout_marginLeft="10dp"
+            android:Layout_weight= "1"
+            android:drawablePadding="5dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:id="@+id/txtHumedad"
+            android:layout_margin="10dp"
+            android:text="Humedad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
